@@ -1,0 +1,5 @@
+D:/ST/MC/ChannelRobotics_150626_1/Src/regular_conversion_manager.c:126:6:RCM_RegisterRegConv	7
+D:/ST/MC/ChannelRobotics_150626_1/Src/regular_conversion_manager.c:202:6:RCM_ExecNextConv	3
+D:/ST/MC/ChannelRobotics_150626_1/Src/regular_conversion_manager.c:239:6:RCM_ReadOngoingConv	4
+D:/ST/MC/ChannelRobotics_150626_1/Src/regular_conversion_manager.c:282:10:RCM_ExecRegularConv	3
+D:/ST/MC/ChannelRobotics_150626_1/Src/regular_conversion_manager.c:323:6:RCM_WaitForConv	3

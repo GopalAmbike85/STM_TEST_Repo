@@ -1,0 +1,4 @@
+D:/ST/MC/ChannelRobotics_150626_1/Src/mcp.c:58:9:RI_SetRegCommandParser	72	static
+D:/ST/MC/ChannelRobotics_150626_1/Src/mcp.c:161:9:RI_GetRegCommandParser	56	static
+D:/ST/MC/ChannelRobotics_150626_1/Src/mcp.c:227:6:MCP_ReceivedPacket	32	static
+D:/ST/MC/ChannelRobotics_150626_1/Src/mcp.c:407:9:MCP_RegisterCallBack	0	static

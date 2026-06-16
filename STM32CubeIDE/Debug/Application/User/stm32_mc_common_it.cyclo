@@ -1,0 +1,5 @@
+D:/ST/MC/ChannelRobotics_150626_1/Src/stm32_mc_common_it.c:70:6:USART2_IRQHandler	14
+D:/ST/MC/ChannelRobotics_150626_1/Src/stm32_mc_common_it.c:148:6:HardFault_Handler	1
+D:/ST/MC/ChannelRobotics_150626_1/Src/stm32_mc_common_it.c:167:6:SysTick_Handler	3
+D:/ST/MC/ChannelRobotics_150626_1/Src/stm32_mc_common_it.c:213:6:EXTI15_10_IRQHandler	4
+D:/ST/MC/ChannelRobotics_150626_1/Src/stm32_mc_common_it.c:230:6:EXTI15_IRQHandler_Encoder	3
