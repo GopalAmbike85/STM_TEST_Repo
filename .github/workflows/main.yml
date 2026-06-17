@@ -20,7 +20,7 @@ jobs:
 
       - name: Build firmware
         run: |
-          cd STM32CubeIDE
+          cd STM32CubeIDE/Debug
           make -j$(nproc) all
 
       - name: Upload firmware artifact
