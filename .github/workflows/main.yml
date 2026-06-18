@@ -16,11 +16,30 @@ jobs:
       - name: Install ARM GNU Toolchain
         run: |
           sudo apt-get update -y
-          sudo apt-get install -y gcc-arm-none-eabi make
+          sudo apt-get install -y gcc-arm-none-eabi make python3
 
       - name: Fix Windows paths in all Makefiles
         run: |
-          find STM32CubeIDE/Debug -name "*.mk" | xargs sed -i 's|D:/ST/MC/ChannelRobotics_150626_1/||g'
+          python3 - <<'EOF'
+          import os, re
+
+          root = "STM32CubeIDE/Debug"
+          win_prefix = "D:/ST/MC/ChannelRobotics_150626_1/"
+
+          for dirpath, dirs, files in os.walk(root):
+              for fname in files:
+                  if fname.endswith(".mk") or fname == "makefile" or fname == "Makefile":
+                      fpath = os.path.join(dirpath, fname)
+                      with open(fpath, "r", errors="replace") as f:
+                          content = f.read()
+                      # Replace Windows prefix with empty string (leaves relative path)
+                      fixed = content.replace(win_prefix, "../../")
+                      # Fix Windows CRLF line endings
+                      fixed = fixed.replace("\r\n", "\n")
+                      with open(fpath, "w") as f:
+                          f.write(fixed)
+                      print(f"Fixed: {fpath}")
+          EOF
 
       - name: Build firmware
         run: |
