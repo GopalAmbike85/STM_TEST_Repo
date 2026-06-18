@@ -18,8 +18,8 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y gcc-arm-none-eabi make
 
-      - name: Show problematic subdir.mk line
-        run: sed -n '60,66p' STM32CubeIDE/Debug/Middlewares/MotorControl/subdir.mk
+      - name: Show subdir.mk content
+        run: cat STM32CubeIDE/Debug/Middlewares/MotorControl/subdir.mk
 
       - name: Build firmware
         run: |
