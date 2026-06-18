@@ -18,10 +18,10 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y gcc-arm-none-eabi make python3
 
-      - name: Fix Windows paths in all Makefiles
+      - name: Fix Windows paths in all Makefiles and dependency files
         run: |
           python3 - <<'EOF'
-          import os, re
+          import os
 
           root = "STM32CubeIDE/Debug"
           replacements = [
@@ -34,9 +34,12 @@ jobs:
               ("D:\\Git\\Test\\STM_TEST_Repo\\STM32CubeIDE\\", "../"),
           ]
 
+          extensions = (".mk", ".d", ".list")
+          filenames = ("makefile", "Makefile", "objects.mk", "sources.mk")
+
           for dirpath, dirs, files in os.walk(root):
               for fname in files:
-                  if fname.endswith(".mk") or fname in ("makefile", "Makefile"):
+                  if fname.endswith(extensions) or fname in filenames:
                       fpath = os.path.join(dirpath, fname)
                       with open(fpath, "r", errors="replace") as f:
                           content = f.read()
