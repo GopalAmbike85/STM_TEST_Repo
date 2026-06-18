@@ -62,8 +62,8 @@ all: main-build
 main-build: ChannelRobotics_150626_1.elf secondary-outputs
 
 # Tool invocations
-ChannelRobotics_150626_1.elf ChannelRobotics_150626_1.map: $(OBJS) $(USER_OBJS) D:\ST\MC\ChannelRobotics_150626_1\STM32CubeIDE\STM32G431CBUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "ChannelRobotics_150626_1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\ST\MC\ChannelRobotics_150626_1\STM32CubeIDE\STM32G431CBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ChannelRobotics_150626_1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+ChannelRobotics_150626_1.elf ChannelRobotics_150626_1.map: $(OBJS) $(USER_OBJS) D:\Git\Test\STM_TEST_Repo\STM32CubeIDE\STM32G431CBUX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "ChannelRobotics_150626_1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Git\Test\STM_TEST_Repo\STM32CubeIDE\STM32G431CBUX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ChannelRobotics_150626_1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

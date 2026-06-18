@@ -1,5 +1,5 @@
 Application/User/regular_conversion_manager.o: \
- D:/ST/MC/ChannelRobotics_150626_1/Src/regular_conversion_manager.c \
+ D:/Git/Test/STM_TEST_Repo/Src/regular_conversion_manager.c \
  ../../Inc/regular_conversion_manager.h ../../Inc/mc_type.h \
  ../../Inc/mc_stm_types.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \

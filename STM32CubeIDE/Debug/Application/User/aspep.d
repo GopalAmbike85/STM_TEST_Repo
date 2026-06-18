@@ -1,4 +1,4 @@
-Application/User/aspep.o: D:/ST/MC/ChannelRobotics_150626_1/Src/aspep.c \
+Application/User/aspep.o: D:/Git/Test/STM_TEST_Repo/Src/aspep.c \
  ../../Inc/aspep.h ../../Inc/parameters_conversion.h ../../Inc/mc_math.h \
  ../../Inc/mc_type.h ../../Inc/mc_stm_types.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \

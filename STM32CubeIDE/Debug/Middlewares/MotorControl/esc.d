@@ -1,5 +1,5 @@
 Middlewares/MotorControl/esc.o: \
- D:/ST/MC/ChannelRobotics_150626_1/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/esc.c \
+ D:/Git/Test/STM_TEST_Repo/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/esc.c \
  ../../Inc/motorcontrol.h ../../Inc/mc_config.h \
  ../../MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Inc/pid_regulator.h \
  ../../Inc/mc_type.h ../../Inc/mc_stm_types.h \

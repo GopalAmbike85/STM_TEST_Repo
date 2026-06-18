@@ -1,5 +1,5 @@
 Middlewares/MotorControl/sto_pll_speed_pos_fdbk.o: \
- D:/ST/MC/ChannelRobotics_150626_1/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_pll_speed_pos_fdbk.c \
+ D:/Git/Test/STM_TEST_Repo/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/sto_pll_speed_pos_fdbk.c \
  ../../MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Inc/sto_pll_speed_pos_fdbk.h \
  ../../MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Inc/speed_pos_fdbk.h \
  ../../Inc/mc_type.h ../../Inc/mc_stm_types.h \

@@ -1,5 +1,5 @@
 Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_dma.o: \
- D:/ST/MC/ChannelRobotics_150626_1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c \
+ D:/Git/Test/STM_TEST_Repo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
  ../../Inc/stm32g4xx_hal_conf.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \

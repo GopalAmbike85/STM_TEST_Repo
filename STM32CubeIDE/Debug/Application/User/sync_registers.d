@@ -1,6 +1,6 @@
 Application/User/sync_registers.o: \
- D:/ST/MC/ChannelRobotics_150626_1/Src/sync_registers.c \
- ../../Inc/mc_type.h ../../Inc/mc_stm_types.h \
+ D:/Git/Test/STM_TEST_Repo/Src/sync_registers.c ../../Inc/mc_type.h \
+ ../../Inc/mc_stm_types.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \
  ../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h \

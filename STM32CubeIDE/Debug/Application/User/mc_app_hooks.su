@@ -1,2 +1,2 @@
-D:/ST/MC/ChannelRobotics_150626_1/Src/mc_app_hooks.c:51:13:MC_APP_BootHook	0	static
-D:/ST/MC/ChannelRobotics_150626_1/Src/mc_app_hooks.c:65:13:MC_APP_PostMediumFrequencyHook_M1	0	static
+D:/Git/Test/STM_TEST_Repo/Src/mc_app_hooks.c:51:13:MC_APP_BootHook	0	static
+D:/Git/Test/STM_TEST_Repo/Src/mc_app_hooks.c:65:13:MC_APP_PostMediumFrequencyHook_M1	0	static

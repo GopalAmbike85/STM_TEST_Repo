@@ -1,5 +1,5 @@
 Middlewares/MotorControl/pqd_motor_power_measurement.o: \
- D:/ST/MC/ChannelRobotics_150626_1/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/pqd_motor_power_measurement.c \
+ D:/Git/Test/STM_TEST_Repo/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/pqd_motor_power_measurement.c \
  ../../MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Inc/pqd_motor_power_measurement.h \
  ../../MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Inc/bus_voltage_sensor.h \
  ../../Inc/mc_type.h ../../Inc/mc_stm_types.h \

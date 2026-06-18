@@ -1,5 +1,5 @@
 Application/User/hf_registers.o: \
- D:/ST/MC/ChannelRobotics_150626_1/Src/hf_registers.c \
+ D:/Git/Test/STM_TEST_Repo/Src/hf_registers.c \
  ../../Inc/register_interface.h ../../Inc/mc_type.h \
  ../../Inc/mc_stm_types.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \

@@ -1,2 +1,2 @@
-D:/ST/MC/ChannelRobotics_150626_1/Src/hf_registers.c:29:9:HF_GetIDSize	0	static
-D:/ST/MC/ChannelRobotics_150626_1/Src/hf_registers.c:64:16:HF_GetPtrReg	0	static
+D:/Git/Test/STM_TEST_Repo/Src/hf_registers.c:29:9:HF_GetIDSize	0	static
+D:/Git/Test/STM_TEST_Repo/Src/hf_registers.c:64:16:HF_GetPtrReg	0	static

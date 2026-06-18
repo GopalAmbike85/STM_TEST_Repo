@@ -1,5 +1,5 @@
 Drivers/STM32G4xx_HAL_Driver/stm32g4xx_hal_flash.o: \
- D:/ST/MC/ChannelRobotics_150626_1/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c \
+ D:/Git/Test/STM_TEST_Repo/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
  ../../Inc/stm32g4xx_hal_conf.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \

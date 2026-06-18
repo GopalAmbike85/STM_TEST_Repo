@@ -1,6 +1,6 @@
-D:/ST/MC/ChannelRobotics_150626_1/Src/usart_aspep_driver.c:44:6:UASPEP_INIT	5
-D:/ST/MC/ChannelRobotics_150626_1/Src/usart_aspep_driver.c:56:6:UASPEP_TX_INIT	3
-D:/ST/MC/ChannelRobotics_150626_1/Src/usart_aspep_driver.c:93:6:UASPEP_RX_INIT	3
-D:/ST/MC/ChannelRobotics_150626_1/Src/usart_aspep_driver.c:130:6:UASPEP_CFG_TRANSMISSION	2
-D:/ST/MC/ChannelRobotics_150626_1/Src/usart_aspep_driver.c:153:6:UASPEP_CFG_RECEPTION	1
-D:/ST/MC/ChannelRobotics_150626_1/Src/usart_aspep_driver.c:169:6:UASPEP_IDLE_ENABLE	2
+D:/Git/Test/STM_TEST_Repo/Src/usart_aspep_driver.c:44:6:UASPEP_INIT	5
+D:/Git/Test/STM_TEST_Repo/Src/usart_aspep_driver.c:56:6:UASPEP_TX_INIT	3
+D:/Git/Test/STM_TEST_Repo/Src/usart_aspep_driver.c:93:6:UASPEP_RX_INIT	3
+D:/Git/Test/STM_TEST_Repo/Src/usart_aspep_driver.c:130:6:UASPEP_CFG_TRANSMISSION	2
+D:/Git/Test/STM_TEST_Repo/Src/usart_aspep_driver.c:153:6:UASPEP_CFG_RECEPTION	1
+D:/Git/Test/STM_TEST_Repo/Src/usart_aspep_driver.c:169:6:UASPEP_IDLE_ENABLE	2

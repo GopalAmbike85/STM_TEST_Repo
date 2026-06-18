@@ -1,5 +1,5 @@
 Middlewares/MotorControl/circle_limitation.o: \
- D:/ST/MC/ChannelRobotics_150626_1/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/circle_limitation.c \
+ D:/Git/Test/STM_TEST_Repo/MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Src/circle_limitation.c \
  ../../MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Inc/circle_limitation.h \
  ../../Inc/mc_type.h ../../Inc/mc_stm_types.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \

@@ -1,4 +1,4 @@
-Application/User/mcp.o: D:/ST/MC/ChannelRobotics_150626_1/Src/mcp.c \
+Application/User/mcp.o: D:/Git/Test/STM_TEST_Repo/Src/mcp.c \
  ../../Inc/mc_type.h ../../Inc/mc_stm_types.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \
  ../../Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h \

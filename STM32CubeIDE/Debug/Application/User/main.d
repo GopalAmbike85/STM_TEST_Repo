@@ -1,4 +1,4 @@
-Application/User/main.o: D:/ST/MC/ChannelRobotics_150626_1/Src/main.c \
+Application/User/main.o: D:/Git/Test/STM_TEST_Repo/Src/main.c \
  ../../Inc/main.h ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
  ../../Inc/stm32g4xx_hal_conf.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \

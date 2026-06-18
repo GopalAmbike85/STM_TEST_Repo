@@ -1,2 +1,2 @@
-D:/ST/MC/ChannelRobotics_150626_1/Src/system_stm32g4xx.c:181:6:SystemInit	0	static
-D:/ST/MC/ChannelRobotics_150626_1/Src/system_stm32g4xx.c:230:6:SystemCoreClockUpdate	0	static
+D:/Git/Test/STM_TEST_Repo/Src/system_stm32g4xx.c:181:6:SystemInit	0	static
+D:/Git/Test/STM_TEST_Repo/Src/system_stm32g4xx.c:230:6:SystemCoreClockUpdate	0	static

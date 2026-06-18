@@ -1,6 +1,5 @@
 Application/User/stm32_mc_common_it.o: \
- D:/ST/MC/ChannelRobotics_150626_1/Src/stm32_mc_common_it.c \
- ../../Inc/mc_config.h \
+ D:/Git/Test/STM_TEST_Repo/Src/stm32_mc_common_it.c ../../Inc/mc_config.h \
  ../../MCSDK_v6.4.2-Full/MotorControl/MCSDK/MCLib/Any/Inc/pid_regulator.h \
  ../../Inc/mc_type.h ../../Inc/mc_stm_types.h \
  ../../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_bus.h \
