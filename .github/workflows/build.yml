@@ -18,11 +18,7 @@ jobs:
           sudo apt-get update -y
           sudo apt-get install -y gcc-arm-none-eabi make python3
 
-      - name: read version
-      run: | arm-none-eabi-gcc --version 
-
-      
-
+    
       - name: Fix Windows paths in all Makefiles and dependency files
         run: |
           python3 - <<'EOF'
