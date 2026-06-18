@@ -13,16 +13,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install ARM GNU Toolchain (15.1)
+      - name: Install ARM GNU Toolchain
         run: |
           sudo apt-get update -y
           sudo apt-get install -y gcc-arm-none-eabi make
 
       - name: Fix Windows paths in all Makefiles
         run: |
-          find STM32CubeIDE/Debug -name "*.mk" -o -name "makefile" -o -name "Makefile" | while read f; do
-            sed -i 's|D:/ST/MC/ChannelRobotics_150626_1/||g' "$f"
-          done
+          find STM32CubeIDE/Debug -name "*.mk" | xargs sed -i 's|D:/ST/MC/ChannelRobotics_150626_1/||g'
 
       - name: Build firmware
         run: |
